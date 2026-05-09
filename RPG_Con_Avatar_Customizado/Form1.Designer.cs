@@ -1,6 +1,6 @@
 ﻿namespace RPG_Con_Avatar_Customizado
 {
-    partial class PersonalizacionAvatar
+    partial class form_InicioJuego
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,49 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox_rasgos = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox_rasgos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.lbl_nombreUsuario = new System.Windows.Forms.Label();
+            this.txtbox_nombreUsuario = new System.Windows.Forms.TextBox();
+            this.btnEmpezarJuego = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // groupBox_rasgos
+            // lbl_nombreUsuario
             // 
-            this.groupBox_rasgos.Controls.Add(this.pictureBox1);
-            this.groupBox_rasgos.Location = new System.Drawing.Point(27, 26);
-            this.groupBox_rasgos.Name = "groupBox_rasgos";
-            this.groupBox_rasgos.Size = new System.Drawing.Size(263, 533);
-            this.groupBox_rasgos.TabIndex = 0;
-            this.groupBox_rasgos.TabStop = false;
-            this.groupBox_rasgos.Text = "Elige la parte del personaje que deseas personalizar";
-            this.groupBox_rasgos.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.lbl_nombreUsuario.AutoSize = true;
+            this.lbl_nombreUsuario.Location = new System.Drawing.Point(263, 209);
+            this.lbl_nombreUsuario.Name = "lbl_nombreUsuario";
+            this.lbl_nombreUsuario.Size = new System.Drawing.Size(122, 16);
+            this.lbl_nombreUsuario.TabIndex = 5;
+            this.lbl_nombreUsuario.Text = "Nombre de usuario";
             // 
-            // pictureBox1
+            // txtbox_nombreUsuario
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(54, 76);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.txtbox_nombreUsuario.Location = new System.Drawing.Point(266, 254);
+            this.txtbox_nombreUsuario.Name = "txtbox_nombreUsuario";
+            this.txtbox_nombreUsuario.Size = new System.Drawing.Size(293, 22);
+            this.txtbox_nombreUsuario.TabIndex = 4;
+            this.txtbox_nombreUsuario.TextChanged += new System.EventHandler(this.nombreUsuario_TextChanged);
+            this.txtbox_nombreUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nombreUsuario_KeyPress);
             // 
-            // PersonalizacionAvatar
+            // btnEmpezarJuego
+            // 
+            this.btnEmpezarJuego.Location = new System.Drawing.Point(347, 316);
+            this.btnEmpezarJuego.Name = "btnEmpezarJuego";
+            this.btnEmpezarJuego.Size = new System.Drawing.Size(135, 37);
+            this.btnEmpezarJuego.TabIndex = 3;
+            this.btnEmpezarJuego.Text = "Empezar Juego";
+            this.btnEmpezarJuego.UseVisualStyleBackColor = true;
+            this.btnEmpezarJuego.Click += new System.EventHandler(this.btnEmpezarJuego_Click);
+            this.btnEmpezarJuego.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnEmpezarJuego_KeyDown);
+            // 
+            // form_InicioJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1290, 602);
-            this.Controls.Add(this.groupBox_rasgos);
-            this.Name = "PersonalizacionAvatar";
-            this.Text = "RPG";
-            this.groupBox_rasgos.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ClientSize = new System.Drawing.Size(833, 602);
+            this.Controls.Add(this.lbl_nombreUsuario);
+            this.Controls.Add(this.txtbox_nombreUsuario);
+            this.Controls.Add(this.btnEmpezarJuego);
+            this.Name = "form_InicioJuego";
+            this.Text = "El inicio de la aventura";
+            this.Load += new System.EventHandler(this.form_InicioJuego_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox_rasgos;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbl_nombreUsuario;
+        private System.Windows.Forms.TextBox txtbox_nombreUsuario;
+        private System.Windows.Forms.Button btnEmpezarJuego;
     }
 }
 

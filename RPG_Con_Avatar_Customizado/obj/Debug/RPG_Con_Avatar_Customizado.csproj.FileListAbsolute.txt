@@ -1,0 +1,12 @@
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\bin\Debug\RPG_Con_Avatar_Customizado.exe.config
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\bin\Debug\RPG_Con_Avatar_Customizado.exe
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\bin\Debug\RPG_Con_Avatar_Customizado.pdb
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.csproj.AssemblyReference.cache
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.Properties.Resources.resources
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.csproj.GenerateResource.cache
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.csproj.CoreCompileInputs.cache
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.exe
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.pdb
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.exe.config
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.form_InicioJuego.resources
+C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.creacionAvatar.resources

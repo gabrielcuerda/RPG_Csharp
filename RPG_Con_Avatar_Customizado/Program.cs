@@ -16,7 +16,7 @@ namespace RPG_Con_Avatar_Customizado
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PersonalizacionAvatar());
+            Application.Run(new form_InicioJuego());
         }
     }
 }

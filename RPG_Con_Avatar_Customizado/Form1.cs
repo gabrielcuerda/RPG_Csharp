@@ -10,16 +10,56 @@ using System.Windows.Forms;
 
 namespace RPG_Con_Avatar_Customizado
 {
-    public partial class PersonalizacionAvatar : Form
+    public partial class form_InicioJuego : Form
     {
-        public PersonalizacionAvatar()
+        public form_InicioJuego()
         {
             InitializeComponent();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
+            
+        }
+
+        private void nombreUsuario_TextChanged(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txtbox_nombreUsuario.Text))
+            {
+                btnEmpezarJuego.Enabled = true;
+            }
+            else
+            {
+                btnEmpezarJuego.Enabled = false;
+            }
+        }
+
+        private void nombreUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //if (nombreUsuario.Text != " " || nombreUsuario.Text != "" ||)
+            //{
+            //    btnEmpezarJuego.Enabled = true;
+            //}
+            //else
+            //{
+            //    btnEmpezarJuego.Enabled = false;
+            //}
+        }
+
+        private void btnEmpezarJuego_Click(object sender, EventArgs e)
+        {
 
         }
+
+        private void form_InicioJuego_Load(object sender, EventArgs e)
+        {
+            btnEmpezarJuego.Enabled = false;
+        }
+
+        private void btnEmpezarJuego_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
+    
     }
 }

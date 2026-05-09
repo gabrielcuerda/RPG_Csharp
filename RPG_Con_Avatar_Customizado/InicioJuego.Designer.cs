@@ -1,6 +1,6 @@
 ﻿namespace RPG_Con_Avatar_Customizado
 {
-    partial class InicioJuego
+    partial class creacionAvatar
     {
         /// <summary>
         /// Required designer variable.
@@ -28,45 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEmpezarJuego = new System.Windows.Forms.Button();
-            this.btnContinuarJuego = new System.Windows.Forms.Button();
+            this.groupBox_rasgos = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox_rasgos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnEmpezarJuego
+            // groupBox_rasgos
             // 
-            this.btnEmpezarJuego.Location = new System.Drawing.Point(346, 213);
-            this.btnEmpezarJuego.Name = "btnEmpezarJuego";
-            this.btnEmpezarJuego.Size = new System.Drawing.Size(254, 85);
-            this.btnEmpezarJuego.TabIndex = 0;
-            this.btnEmpezarJuego.Text = "Empezar Juego";
-            this.btnEmpezarJuego.UseVisualStyleBackColor = true;
+            this.groupBox_rasgos.Controls.Add(this.pictureBox1);
+            this.groupBox_rasgos.Location = new System.Drawing.Point(12, 33);
+            this.groupBox_rasgos.Name = "groupBox_rasgos";
+            this.groupBox_rasgos.Size = new System.Drawing.Size(263, 533);
+            this.groupBox_rasgos.TabIndex = 3;
+            this.groupBox_rasgos.TabStop = false;
+            this.groupBox_rasgos.Text = "Elige la parte del personaje que deseas personalizar";
             // 
-            // btnContinuarJuego
+            // pictureBox1
             // 
-            this.btnContinuarJuego.Location = new System.Drawing.Point(346, 325);
-            this.btnContinuarJuego.Name = "btnContinuarJuego";
-            this.btnContinuarJuego.Size = new System.Drawing.Size(254, 85);
-            this.btnContinuarJuego.TabIndex = 1;
-            this.btnContinuarJuego.Text = "Continuar Juego";
-            this.btnContinuarJuego.UseVisualStyleBackColor = true;
+            this.pictureBox1.Location = new System.Drawing.Point(54, 76);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // InicioJuego
+            // creacionAvatar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 578);
-            this.Controls.Add(this.btnContinuarJuego);
-            this.Controls.Add(this.btnEmpezarJuego);
-            this.Name = "InicioJuego";
-            this.Text = "InicioJuego";
+            this.Controls.Add(this.groupBox_rasgos);
+            this.Name = "creacionAvatar";
+            this.Text = "Ventana de Personalización de Avatar";
             this.Load += new System.EventHandler(this.InicioJuego_Load);
+            this.groupBox_rasgos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnEmpezarJuego;
-        private System.Windows.Forms.Button btnContinuarJuego;
+        private System.Windows.Forms.GroupBox groupBox_rasgos;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

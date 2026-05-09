@@ -10,16 +10,32 @@ using System.Windows.Forms;
 
 namespace RPG_Con_Avatar_Customizado
 {
-    public partial class InicioJuego : Form
+    public partial class creacionAvatar : Form
     {
-        public InicioJuego()
+        public creacionAvatar()
         {
             InitializeComponent();
         }
 
         private void InicioJuego_Load(object sender, EventArgs e)
         {
-            btnContinuarJuego.Enabled = false;
+            //btnContinuarJuego.Enabled = false;
+        }
+
+        private void btnEmpezarJuego_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombreUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombreUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+                
         }
     }
 }
