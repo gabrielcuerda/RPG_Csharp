@@ -48,7 +48,11 @@ namespace RPG_Con_Avatar_Customizado
 
         private void btnEmpezarJuego_Click(object sender, EventArgs e)
         {
+            creacionAvatar form_creacionAvatar = new creacionAvatar();
 
+            form_creacionAvatar.Show();
+            
+            this.Close();
         }
 
         private void form_InicioJuego_Load(object sender, EventArgs e)
