@@ -63,6 +63,16 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cara_base {
+            get {
+                object obj = ResourceManager.GetObject("cara_base", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fc9642b02ca644cff040c75cbe24698c {
             get {
                 object obj = ResourceManager.GetObject("fc9642b02ca644cff040c75cbe24698c", resourceCulture);
