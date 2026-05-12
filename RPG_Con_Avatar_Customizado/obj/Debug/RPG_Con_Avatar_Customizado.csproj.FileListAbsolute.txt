@@ -10,3 +10,15 @@ C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_
 C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.exe.config
 C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.form_InicioJuego.resources
 C:\Users\gabic\Documents\UCAM\PVA\practica final\RPG_Con_Avatar_Customizado\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.creacionAvatar.resources
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\bin\Debug\RPG_Con_Avatar_Customizado.exe.config
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\bin\Debug\RPG_Con_Avatar_Customizado.exe
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\bin\Debug\RPG_Con_Avatar_Customizado.pdb
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.csproj.AssemblyReference.cache
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.exe.config
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.creacionAvatar.resources
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.Properties.Resources.resources
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.csproj.GenerateResource.cache
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.exe
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.pdb
+C:\Users\Home\Documents\GitHub\RPG_Csharp\RPG_Con_Avatar_Customizado\obj\Debug\RPG_Con_Avatar_Customizado.Form1.resources

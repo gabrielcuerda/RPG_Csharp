@@ -1,25 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RPG_Con_Avatar_Customizado
 {
-    public partial class form_InicioJuego : Form
+    public partial class Form1 : Form
     {
-        public form_InicioJuego()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-            
         }
 
         private void nombreUsuario_TextChanged(object sender, EventArgs e)
@@ -34,36 +22,16 @@ namespace RPG_Con_Avatar_Customizado
             }
         }
 
-        private void nombreUsuario_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            //if (nombreUsuario.Text != " " || nombreUsuario.Text != "" ||)
-            //{
-            //    btnEmpezarJuego.Enabled = true;
-            //}
-            //else
-            //{
-            //    btnEmpezarJuego.Enabled = false;
-            //}
-        }
-
         private void btnEmpezarJuego_Click(object sender, EventArgs e)
         {
-            creacionAvatar form_creacionAvatar = new creacionAvatar();
-
-            form_creacionAvatar.Show();
-            
-            this.Close();
+            creacionAvatar ventanaAvatar = new creacionAvatar();
+            ventanaAvatar.Show();
+            this.Hide();
         }
 
-        private void form_InicioJuego_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
             btnEmpezarJuego.Enabled = false;
         }
-
-        private void btnEmpezarJuego_KeyDown(object sender, KeyEventArgs e)
-        {
-            
-        }
-    
     }
 }
