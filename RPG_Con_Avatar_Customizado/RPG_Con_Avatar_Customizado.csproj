@@ -58,6 +58,7 @@
     <Compile Include="InicioJuego.Designer.cs">
       <DependentUpon>InicioJuego.cs</DependentUpon>
     </Compile>
+    <Compile Include="MusicaFondo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -94,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fc9642b02ca644cff040c75cbe24698c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\menieldm-castle-of-hollow-steps-495836.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
