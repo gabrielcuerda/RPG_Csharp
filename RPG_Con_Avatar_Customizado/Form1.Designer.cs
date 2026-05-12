@@ -23,6 +23,10 @@
             this.lbl_genero = new System.Windows.Forms.Label();
             this.comboBox_Genero = new System.Windows.Forms.ComboBox();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_nombreUsuario
@@ -125,20 +129,42 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitulo.Font = new System.Drawing.Font("Courier New", 22F, System.Drawing.FontStyle.Bold);
+            this.lblTitulo.Font = new System.Drawing.Font("Press Start 2P", 14F, System.Drawing.FontStyle.Bold);
             this.lblTitulo.ForeColor = System.Drawing.Color.Gold;
-            this.lblTitulo.Location = new System.Drawing.Point(124, 40);
+            this.lblTitulo.Location = new System.Drawing.Point(115, 55);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(375, 34);
+            this.lblTitulo.Size = new System.Drawing.Size(412, 26);
             this.lblTitulo.TabIndex = 10;
             this.lblTitulo.Text = "ECHOES OF THE FALLEN";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::RPG_Con_Avatar_Customizado.Properties.Resources.icono_32x32;
+            this.pictureBox1.Location = new System.Drawing.Point(533, 48);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(38, 33);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::RPG_Con_Avatar_Customizado.Properties.Resources.icono_32x32;
+            this.pictureBox2.Location = new System.Drawing.Point(71, 48);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(38, 33);
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(25)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(650, 420);
+            this.BackgroundImage = global::RPG_Con_Avatar_Customizado.Properties.Resources.fc9642b02ca644cff040c75cbe24698c;
+            this.ClientSize = new System.Drawing.Size(635, 407);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lbl_genero);
             this.Controls.Add(this.comboBox_Genero);
@@ -150,6 +176,8 @@
             this.Name = "Form1";
             this.Text = "AVATAR FORGE - RPG";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,5 +191,7 @@
         private System.Windows.Forms.Label lbl_genero;
         private System.Windows.Forms.ComboBox comboBox_Genero;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

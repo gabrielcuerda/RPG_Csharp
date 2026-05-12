@@ -33,5 +33,10 @@ namespace RPG_Con_Avatar_Customizado
         {
             btnEmpezarJuego.Enabled = false;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
