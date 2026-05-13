@@ -63,6 +63,36 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_05_13_194112 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-05-13 194112", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_05_13_194156 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-05-13 194156", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_05_13_200521 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-05-13 200521", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cara_base {
             get {
                 object obj = ResourceManager.GetObject("cara_base", resourceCulture);
@@ -96,6 +126,26 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         internal static System.Drawing.Bitmap cejas_2_96x96 {
             get {
                 object obj = ResourceManager.GetObject("cejas_2_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_13_may_2026__19_37_22 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 13 may 2026, 19_37_22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_13_may_2026__19_54_47 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 13 may 2026, 19_54_47", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

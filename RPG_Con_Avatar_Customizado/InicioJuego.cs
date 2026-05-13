@@ -98,5 +98,10 @@ namespace RPG_Con_Avatar_Customizado
             tabControl1.SelectedIndex = 3;
 
         }
+
+        private void groupBox_rasgos_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

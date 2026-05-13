@@ -114,6 +114,11 @@
     <None Include="Resources\96x96\ojos_3_96x96.png" />
     <None Include="Resources\96x96\sprite_boca0_96x96.png" />
     <None Include="Resources\96x96\sprite_boca1_96x96.png" />
+    <None Include="Resources\ChatGPT Image 13 may 2026, 19_37_22.png" />
+    <None Include="Resources\Captura de pantalla 2026-05-13 194112.png" />
+    <None Include="Resources\Captura de pantalla 2026-05-13 194156.png" />
+    <None Include="Resources\ChatGPT Image 13 may 2026, 19_54_47.png" />
+    <None Include="Resources\Captura de pantalla 2026-05-13 200521.png" />
     <Content Include="Resources\menieldm-castle-of-hollow-steps-495836.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

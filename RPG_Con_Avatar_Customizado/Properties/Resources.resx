@@ -121,11 +121,20 @@
   <data name="pelo_0_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\200x200\pelos\pelo_0_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sprite_boca1_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96x96\sprite_boca1_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cejas_1_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96x96\cejas_1_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cejas_2_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\96x96\cejas_2_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ojos_3_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\96x96\ojos_3_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelo_0_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96x96\pelo_0_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icono_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icono_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,26 +148,32 @@
   <data name="pelo_6_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\96x96\pelo_6_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pelo_3_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\96x96\pelo_3_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cara_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\200x200\cara_base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pelo_0_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\96x96\pelo_0_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pelo_3_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96x96\pelo_3_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sprite_boca0_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96x96\sprite_boca0_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fc9642b02ca644cff040c75cbe24698c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fc9642b02ca644cff040c75cbe24698c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ChatGPT Image 13 may 2026, 19_37_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 13 may 2026, 19_37_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ojos_0_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\96x96\ojos_0_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cejas_0_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\96x96\cejas_0_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Captura de pantalla 2026-05-13 194112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-05-13 194112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pelo_4_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\96x96\pelo_4_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChatGPT Image 13 may 2026, 19_54_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 13 may 2026, 19_54_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pelo_1_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\96x96\pelo_1_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,16 +181,16 @@
   <data name="pelo_2_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\96x96\pelo_2_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cejas_0_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96x96\cejas_0_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ojos_1_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\96x96\ojos_1_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cejas_1_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\96x96\cejas_1_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Captura de pantalla 2026-05-13 194156" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-05-13 194156.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sprite_boca0_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\96x96\sprite_boca0_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sprite_boca1_96x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\96x96\sprite_boca1_96x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Captura de pantalla 2026-05-13 200521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-05-13 200521.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
