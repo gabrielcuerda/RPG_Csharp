@@ -73,6 +73,36 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cejas_0_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("cejas_0_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cejas_1_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("cejas_1_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cejas_2_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("cejas_2_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fc9642b02ca644cff040c75cbe24698c {
             get {
                 object obj = ResourceManager.GetObject("fc9642b02ca644cff040c75cbe24698c", resourceCulture);
@@ -86,6 +116,146 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         internal static System.Drawing.Bitmap icono_32x32 {
             get {
                 object obj = ResourceManager.GetObject("icono_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojos_0_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("ojos_0_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojos_1_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("ojos_1_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojos_2_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("ojos_2_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojos_3_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("ojos_3_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_0_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_0_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_0_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_0_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_1_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_1_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_2_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_2_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_3_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_3_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_4_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_4_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_5_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_5_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_6_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_6_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sprite_boca0_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("sprite_boca0_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sprite_boca1_96x96 {
+            get {
+                object obj = ResourceManager.GetObject("sprite_boca1_96x96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
