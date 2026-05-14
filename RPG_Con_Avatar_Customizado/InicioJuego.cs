@@ -103,5 +103,85 @@ namespace RPG_Con_Avatar_Customizado
         {
 
         }
+
+        private void imgDetalle1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imgDetalle3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imgDetalle2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_pelo_0_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_pelo_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_pelo_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_pelo_3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_pelo_4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
