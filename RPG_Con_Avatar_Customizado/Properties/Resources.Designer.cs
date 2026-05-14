@@ -103,6 +103,26 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cara_base_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("cara_base_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cejas_0_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("cejas_0_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cejas_0_96x96 {
             get {
                 object obj = ResourceManager.GetObject("cejas_0_96x96", resourceCulture);
@@ -113,9 +133,29 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cejas_1_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("cejas_1_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cejas_1_96x96 {
             get {
                 object obj = ResourceManager.GetObject("cejas_1_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cejas_2_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("cejas_2_200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +213,29 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ojos_0_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("ojos_0_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ojos_0_96x96 {
             get {
                 object obj = ResourceManager.GetObject("ojos_0_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojos_1_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("ojos_1_200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +253,29 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ojos_2_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("ojos_2_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ojos_2_96x96 {
             get {
                 object obj = ResourceManager.GetObject("ojos_2_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojos_3_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("ojos_3_200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +313,29 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pelo_1_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_1_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pelo_1_96x96 {
             get {
                 object obj = ResourceManager.GetObject("pelo_1_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_2_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_2_200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +353,29 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pelo_3_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_3_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pelo_3_96x96 {
             get {
                 object obj = ResourceManager.GetObject("pelo_3_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_4_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_4_200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +393,29 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pelo_5_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_5_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pelo_5_96x96 {
             get {
                 object obj = ResourceManager.GetObject("pelo_5_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pelo_6_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("pelo_6_200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +433,29 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sprite_boca0_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("sprite_boca0_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sprite_boca0_96x96 {
             get {
                 object obj = ResourceManager.GetObject("sprite_boca0_96x96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sprite_boca1_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("sprite_boca1_200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

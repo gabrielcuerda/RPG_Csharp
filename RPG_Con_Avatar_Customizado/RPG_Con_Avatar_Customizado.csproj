@@ -119,6 +119,8 @@
     <None Include="Resources\Captura de pantalla 2026-05-13 194156.png" />
     <None Include="Resources\ChatGPT Image 13 may 2026, 19_54_47.png" />
     <None Include="Resources\Captura de pantalla 2026-05-13 200521.png" />
+    <None Include="Resources\200x200\cara_base.png" />
+    <None Include="Resources\cara_base_200x200.png" />
     <Content Include="Resources\menieldm-castle-of-hollow-steps-495836.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

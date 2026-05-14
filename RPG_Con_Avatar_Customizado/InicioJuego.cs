@@ -16,7 +16,19 @@ namespace RPG_Con_Avatar_Customizado
     public partial class creacionAvatar : Form
     {
         string url;
-        Image imgCara;
+        Image caraBase = Resources.cara_base;
+        Image cejas0 = Resources.cejas_0_200x200;
+        Image cejas1 = Resources.cejas_1_200x200;
+        Image cejas2 = Resources.cejas_2_200x200;
+        Image ojos0 = Resources.ojos_0_200x200;
+        Image ojos1 = Resources.ojos_1_200x200;
+        Image ojos2 = Resources.ojos_2_200x200;
+        Image ojos3 = Resources.ojos_3_200x200;
+        Image boca0 = Resources.sprite_boca0_200x200;
+        Image boca1 = Resources.sprite_boca1_200x200;
+        //int ancho = picAvatar.Width;
+        //int alto = picAvatar.Height;
+
         public creacionAvatar()
         {
             InitializeComponent();
@@ -24,18 +36,31 @@ namespace RPG_Con_Avatar_Customizado
 
         public void ActualizarAvatar()
         {
+            
+            //Image imgCara = Resources.cara;
+            //Image imgOjos = Resources.ojos;
+            //Image imgBoca = Resources.boca;
+            
             // 1. Creamos un mapa de bits del tamaño deseado
             Bitmap bmpLienzo = new Bitmap(200, 200);
 
             // 2. Creamos el objeto "Graphics" que nos permite dibujar sobre ese mapa
             using (Graphics g = Graphics.FromImage(bmpLienzo))
             {
+                g.Clear(Color.Transparent);
                 // Opcional: Mejorar la calidad del dibujo
                 g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+                g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+                // 4. Dibujamos en orden (Fondo -> Forma -> Detalles)
+                // Es vital verificar que las imágenes no sean nulas antes de dibujar
+                if (caraBase != null) g.DrawImage(caraBase, 0, 0, 200,200);
 
+
+                if (cejas0 != null) g.DrawImage(cejas0, 0, 0, 200, 200);
                 // 3. Dibujamos en orden de capa (el primero queda al fondo)
                 // Asumiendo que tienes las rutas o recursos listos:
-                g.DrawImage(imgCara, 0, 0, 200, 200);
+                //g.DrawImage(imgCara, 0, 0, 200, 200);
+                //g.DrawImage(imgOjos, 0, 0, 200, 200);
                 //g.DrawImage(imgOjos, 0, 0, 200, 200);
                 //g.DrawImage(imgCejas, 0, 0, 200, 200);
                 //g.DrawImage(imgPelo, 0, 0, 200, 200);
@@ -44,7 +69,10 @@ namespace RPG_Con_Avatar_Customizado
 
             // 4. Mostramos el resultado final en el PictureBox
             // Si ya había una imagen antes, la liberamos para no llenar la RAM
-            if (picAvatar.Image != null) picAvatar.Image.Dispose();
+            if (picAvatar.Image != null)
+            {
+                picAvatar.Image.Dispose();
+            }
 
             picAvatar.Image = bmpLienzo;
         }
@@ -106,7 +134,7 @@ namespace RPG_Con_Avatar_Customizado
 
         private void imgDetalle1_Click(object sender, EventArgs e)
         {
-
+            ActualizarAvatar();
         }
 
         private void imgDetalle3_Click(object sender, EventArgs e)
@@ -182,6 +210,12 @@ namespace RPG_Con_Avatar_Customizado
         private void pictureBox5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void picAvatar_Click(object sender, EventArgs e)
+        {
+            //int ancho = picAvatar.Width;
+            //int alto = picAvatar.Height;
         }
     }
 }
