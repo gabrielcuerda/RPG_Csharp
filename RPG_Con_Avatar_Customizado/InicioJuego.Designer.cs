@@ -47,8 +47,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.imgDetalle3 = new System.Windows.Forms.PictureBox();
             this.tabPage_Pelo = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_pelo6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_pelo5 = new System.Windows.Forms.PictureBox();
             this.pictureBox_pelo_3 = new System.Windows.Forms.PictureBox();
             this.pictureBox_pelo_4 = new System.Windows.Forms.PictureBox();
             this.pictureBox_pelo_2 = new System.Windows.Forms.PictureBox();
@@ -70,8 +70,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDetalle3)).BeginInit();
             this.tabPage_Pelo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo_4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo_2)).BeginInit();
@@ -227,7 +227,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(60, 178);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(135, 90);
+            this.pictureBox2.Size = new System.Drawing.Size(96, 90);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
@@ -336,8 +336,8 @@
             this.tabPage_Pelo.BackColor = System.Drawing.Color.DarkGray;
             this.tabPage_Pelo.BackgroundImage = global::RPG_Con_Avatar_Customizado.Properties.Resources.ChatGPT_Image_13_may_2026__19_54_47;
             this.tabPage_Pelo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage_Pelo.Controls.Add(this.pictureBox1);
-            this.tabPage_Pelo.Controls.Add(this.pictureBox7);
+            this.tabPage_Pelo.Controls.Add(this.pictureBox_pelo6);
+            this.tabPage_Pelo.Controls.Add(this.pictureBox_pelo5);
             this.tabPage_Pelo.Controls.Add(this.pictureBox_pelo_3);
             this.tabPage_Pelo.Controls.Add(this.pictureBox_pelo_4);
             this.tabPage_Pelo.Controls.Add(this.pictureBox_pelo_2);
@@ -350,29 +350,29 @@
             this.tabPage_Pelo.TabIndex = 2;
             this.tabPage_Pelo.Text = "Pelo";
             // 
-            // pictureBox1
+            // pictureBox_pelo6
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::RPG_Con_Avatar_Customizado.Properties.Resources.pelo_6_96x96;
-            this.pictureBox1.Location = new System.Drawing.Point(60, 273);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 74);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox_pelo6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox_pelo6.Image = global::RPG_Con_Avatar_Customizado.Properties.Resources.pelo_6_96x96;
+            this.pictureBox_pelo6.Location = new System.Drawing.Point(60, 273);
+            this.pictureBox_pelo6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_pelo6.Name = "pictureBox_pelo6";
+            this.pictureBox_pelo6.Size = new System.Drawing.Size(133, 74);
+            this.pictureBox_pelo6.TabIndex = 9;
+            this.pictureBox_pelo6.TabStop = false;
+            this.pictureBox_pelo6.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox7
+            // pictureBox_pelo5
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::RPG_Con_Avatar_Customizado.Properties.Resources.pelo_5_96x96;
-            this.pictureBox7.Location = new System.Drawing.Point(197, 191);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(133, 74);
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.pictureBox_pelo5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox_pelo5.Image = global::RPG_Con_Avatar_Customizado.Properties.Resources.pelo_5_96x96;
+            this.pictureBox_pelo5.Location = new System.Drawing.Point(197, 191);
+            this.pictureBox_pelo5.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_pelo5.Name = "pictureBox_pelo5";
+            this.pictureBox_pelo5.Size = new System.Drawing.Size(133, 74);
+            this.pictureBox_pelo5.TabIndex = 8;
+            this.pictureBox_pelo5.TabStop = false;
+            this.pictureBox_pelo5.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox_pelo_3
             // 
@@ -480,10 +480,10 @@
             // 
             this.picAvatar.BackColor = System.Drawing.Color.Transparent;
             this.picAvatar.Image = global::RPG_Con_Avatar_Customizado.Properties.Resources.cara_base_200x200;
-            this.picAvatar.Location = new System.Drawing.Point(542, 241);
+            this.picAvatar.Location = new System.Drawing.Point(476, 179);
             this.picAvatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAvatar.Name = "picAvatar";
-            this.picAvatar.Size = new System.Drawing.Size(229, 215);
+            this.picAvatar.Size = new System.Drawing.Size(338, 273);
             this.picAvatar.TabIndex = 4;
             this.picAvatar.TabStop = false;
             this.picAvatar.Click += new System.EventHandler(this.picAvatar_Click);
@@ -518,8 +518,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDetalle3)).EndInit();
             this.tabPage_Pelo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo_4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pelo_2)).EndInit();
@@ -558,11 +558,11 @@
         private System.Windows.Forms.Button btn_pelo;
         private System.Windows.Forms.Button btn_ojos;
         private System.Windows.Forms.Button btn_cejas;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox_pelo5;
         private System.Windows.Forms.PictureBox pictureBox_pelo_3;
         private System.Windows.Forms.PictureBox pictureBox_pelo_4;
         private System.Windows.Forms.PictureBox pictureBox_pelo_2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox_pelo6;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox6;
