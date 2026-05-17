@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClasePersonaje.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,8 +59,6 @@
       <DependentUpon>InicioJuego.cs</DependentUpon>
     </Compile>
     <Compile Include="MusicaFondo.cs" />
-    <Compile Include="Partida.cs" />
-    <Compile Include="Personaje.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
