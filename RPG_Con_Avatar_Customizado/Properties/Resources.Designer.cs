@@ -191,6 +191,24 @@ namespace RPG_Con_Avatar_Customizado.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream dstechnician_rogue_meadow_113856 {
+            get {
+                return ResourceManager.GetStream("dstechnician_rogue_meadow_113856", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream ebunny_old_castle_357802 {
+            get {
+                return ResourceManager.GetStream("ebunny_old_castle_357802", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap fc9642b02ca644cff040c75cbe24698c {
