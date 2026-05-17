@@ -124,6 +124,8 @@
     <None Include="Resources\Captura de pantalla 2026-05-13 200521.png" />
     <None Include="Resources\200x200\cara_base.png" />
     <None Include="Resources\cara_base_200x200.png" />
+    <None Include="Resources\ebunny-old-castle-357802.wav" />
+    <None Include="Resources\dstechnician-rogue-meadow-113856.wav" />
     <Content Include="Resources\menieldm-castle-of-hollow-steps-495836.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
