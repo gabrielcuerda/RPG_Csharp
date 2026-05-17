@@ -241,10 +241,4 @@
   <data name="cara_base_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cara_base_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dstechnician_rogue_meadow_113856" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dstechnician-rogue-meadow-113856.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ebunny_old_castle_357802" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ebunny-old-castle-357802.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
 </root>

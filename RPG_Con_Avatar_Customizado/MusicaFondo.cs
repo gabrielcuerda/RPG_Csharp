@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Media;
 
 namespace RPG_Con_Avatar_Customizado
@@ -8,21 +7,11 @@ namespace RPG_Con_Avatar_Customizado
     {
         private static SoundPlayer reproductor;
 
-        // Ahora acepta el Stream nativo que genera tu ventana de Recursos
-        public static void Reproducir(Stream recursoAudio)
+        public static void Reproducir(string rutaArchivo)
         {
-            try
-            {
-                Detener();
-
-                // Le pasamos el recurso de memoria directamente al reproductor
-                reproductor = new SoundPlayer(recursoAudio);
-                reproductor.PlayLooping();  // Reproducción infinita en bucle
-            }
-            catch (Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show("Error al reproducir el recurso de audio: " + ex.Message);
-            }
+            Detener();
+            reproductor = new SoundPlayer(rutaArchivo);
+            reproductor.PlayLooping();  // Repite en bucle
         }
 
         public static void Detener()
